@@ -1,0 +1,11 @@
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+insert_final_newline = false
+
+[*.{php,js,ts}]
+indent_size = 4
+
+[*.{phtml,twig,scss,css,sass}]
+indent_size = 2
