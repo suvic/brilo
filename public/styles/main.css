@@ -404,7 +404,7 @@ body {
   color: white;
   background-color: rgb(51, 51, 51);
   font: 300 normal normal 0.9125rem/1.5 Arial;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   min-height: 100%;
   padding: 0;
@@ -477,7 +477,6 @@ table {
   font-size: 0.9125rem;
   padding: 0.25rem 4rem;
   text-decoration: none;
-  transition: 0.5s;
 }
 .c-button:hover {
   transform: scale(0.9);
@@ -488,12 +487,14 @@ table {
 }
 .c-cards__items {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
 .c-cards__tile {
+  margin: 2rem 0;
   max-width: 30%;
-  min-width: 25%;
+  min-width: 27.5%;
 }
 .c-cards__figure {
   display: flex;
@@ -516,6 +517,15 @@ table {
   text-align: center;
 }
 
+.c-heading {
+  color: inherit;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.c-heading--1 {
+  margin-bottom: 2rem;
+}
+
 .c-nav {
   background-color: rgb(31, 69, 77);
   display: flex;
@@ -523,7 +533,7 @@ table {
 }
 .c-nav__content {
   display: flex;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   justify-content: flex-end;
 }
 .c-nav__items {
@@ -532,13 +542,19 @@ table {
   list-style-type: none;
 }
 .c-nav__item {
-  padding: 0 0.5rem;
+  font-weight: 400;
+  padding: 0 1rem;
 }
 .c-nav__item a {
   color: white;
+  font-size: 1rem;
   text-decoration: none;
 }
 .c-nav__item a:hover {
-  color: blue;
+  color: black;
+}
+
+.c-text--article {
+  margin-bottom: 3rem;
 }
 /*# sourceMappingURL=main.css.map */
