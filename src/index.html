@@ -11,61 +11,75 @@
     <title>Brilo</title>
   </head>
   <body>
-    <header class="o-section">
+    <header class="c-nav o-section">
       <div class="o-section__inner">
-        <div class="c-nav">
+        <div class="c-nav__content">
           <nav>
-            <ul>
-              <li>HOME</li>
-              <li>ABOUT ME</li>
-              <li>MY WORK</li>
+            <ul class="c-nav__items">
+              <li class="c-nav__item"><a href="">HOME</a></li>
+              <li class="c-nav__item"><a href="">ABOUT ME</a></li>
+              <li class="c-nav__item"><a href="">MY WORK</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-    <main class="o-section">
-      <div class="o-section__inner">
-        <div>
+    <main class="o-section o-section--l">
+      <div class="o-section__inner c-article">
+        <div class="c-article__text">
           <h1>JACK JACKSON</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi consectetur, et similique, blanditiis nostrum dolores laboriosam ullam sed rerum veritatis corrupti, nihil doloribus reprehenderit optio. Culpa qui voluptatem placeat dolorem, a eligendi officiis quae consequatur numquam
-            quod animi quidem harum, distinctio et adipisci voluptatibus accusantium accusamus fugiat maxime! Delectus, quia?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi consectetur, et similique, blanditiis nostrum dolores laboriosam
+            ullam sed rerum veritatis corrupti, nihil doloribus reprehenderit optio. Culpa qui voluptatem placeat dolorem, a eligendi
+            officiis quae consequatur numquam quod animi quidem harum, distinctio et adipisci voluptatibus accusantium accusamus fugiat
+            maxime! Delectus, quia?
           </p>
-          <a href="">LEARN MORE</a>
+          <a href="" class="c-button">LEARN MORE</a>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div class="c-article__figure">
+          <img class="c-article__image" height="1001" width="680" src="./imgs/jack.jpg" alt="" />
         </div>
       </div>
     </main>
-    <section class="o-section">
+    <section class="o-section o-section--l c-cards">
       <div class="o-section__inner">
         <div>
           <h2>WHAT I DID</h2>
         </div>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <h3>EPIC PROJECT</h3>
-            <p>Awesome project I did in 2018. It was big experince for me</p>
+        <div class="c-cards__items">
+          <div class="c-cards__tile">
+            <div class="c-cards__figure">
+              <img src="./imgs/first-project.jpg" height="336" width="182.5" class="c-cards__image" alt="" />
+            </div>
+            <div class="c-cards__content">
+              <h3>EPIC PROJECT</h3>
+              <p>Awesome project I did in 2018. It was big experince for me</p>
+            </div>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>ANOTHER WORK I DID</h3>
-            <p>Awesome project I did in 2018. It was big experince for me</p>
+          <div class="c-cards__tile">
+            <div class="c-cards__figure">
+              <img src="./imgs/second-project.jpg" height="336" width="182.5" class="c-cards__image" alt="" />
+            </div>
+            <div class="c-cards__content">
+              <h3>ANOTHER WORK I DID</h3>
+              <p>Awesome project I did in 2018. It was big experince for me</p>
+            </div>
           </div>
-          <div>
-            <img src="" alt="" />
-            <h3>REBRAND OF THIS COMPANY</h3>
-            <p>Awesome project I did in 2018. It was big experince for me</p>
+          <div class="c-cards__tile">
+            <div class="c-cards__figure">
+              <img src="./imgs/third-project.jpg" height="336" width="182.5" class="c-cards__image" alt="" />
+            </div>
+            <div class="c-cards__content">
+              <h3>REBRAND OF THIS COMPANY</h3>
+              <p>Awesome project I did in 2018. It was big experince for me</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <footer class="o-section">
+    <footer class="o-section c-footer">
       <div class="o-section__inner">
-        <p>©Jack Jackson 2020</p>
+        <p>© Jack Jackson 2020</p>
       </div>
     </footer>
   </body>
