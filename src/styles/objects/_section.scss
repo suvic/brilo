@@ -1,0 +1,10 @@
+.o-section {
+  padding: 1rem 0 2rem 0;
+  width: 100%;
+
+  &__inner {
+    margin: auto;
+    max-width: 80rem;
+    width: 100%;
+  }
+}
