@@ -1,0 +1,28 @@
+.c-article {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 45vh;
+
+  &__text {
+    text-align: left;
+    max-height: fit-content;
+    width: 55%;
+  }
+
+  &__figure {
+    display: flex;
+    max-height: 42.5vh;
+    position: relative;
+    text-align: center;
+    width: 35%;
+  }
+
+  &__image {
+    height: auto;
+    object-fit: contain;
+    object-position: right;
+    width: 100%;
+  }
+}

@@ -1,10 +1,14 @@
 .o-section {
-  padding: 1rem 0 2rem 0;
+  padding: 1rem 0 1rem 0;
   width: 100%;
+
+  &--l {
+    padding: 5rem 0;
+  }
 
   &__inner {
     margin: auto;
-    max-width: 80rem;
+    max-width: 70rem;
     width: 100%;
   }
 }

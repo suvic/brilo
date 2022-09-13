@@ -1,4 +1,28 @@
 .c-nav {
   background-color: rgb(31, 69, 77);
+  display: flex;
   width: 100%;
+
+  &__content {
+    display: flex;
+    padding: 0.5rem 0;
+    justify-content: flex-end;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  &__item {
+    padding: 0 0.5rem;
+    & a {
+      &:hover {
+        color: blue;
+      }
+      color: white;
+      text-decoration: none;
+    }
+  }
 }
