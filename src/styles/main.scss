@@ -1,14 +1,22 @@
-// ELEMENTS
-@import "elements/body";
-@import "elements/html";
-@import "elements/images";
-@import "elements/tables";
-
 // GENERIC
-@import "generic/box-sizing";
-@import "generic/hidden";
-@import "generic/normalize";
-@import "generic/reset";
+@import 'generic/box-sizing';
+@import 'generic/hidden';
+@import 'generic/normalize';
+@import 'generic/reset';
+
+// ELEMENTS
+@import 'elements/body';
+@import 'elements/html';
+@import 'elements/images';
+@import 'elements/tables';
 
 // OBJECTS
-@import "objects/section";
+@import 'objects/image';
+@import 'objects/section';
+
+// COMPONENTS
+@import 'components/article';
+@import 'components/button';
+@import 'components/cards';
+@import 'components/footer';
+@import 'components/nav';
