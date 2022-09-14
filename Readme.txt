@@ -1,11 +1,7 @@
-Steps how to run my project:
-1. download the folder I sent you
-2. assuming you have Visual Studio Code, you open it
-3. hover over File in top left corner and click on Open Folder...
-4. click once on the folder called 'brilo', then click on choose file
-5. it should open the project code
-6. then you open terminal with following keys: Ctrl + Shift + ;
-7. you click inside terminal and type: npm run watch
-8. press enter and new tab in your browser should open with the project
+1. copy the link from github
+2. in VS Code open terminal and type: git clone (paste the link)
+3. after download open the folder you created by clicking File and Open Folder and choose folder called brilo
+4. in terminal type: npm ci
+5. then type to terminal: npm run watch
 
 
