@@ -1,11 +1,13 @@
 .c-button {
   background-color: rgb(55, 150, 167);
   color: white;
+  display: inline-block;
   font-size: 0.9125rem;
   padding: 0.25rem 4rem;
   text-decoration: none;
+  transition: transform 0.15s ease-in-out;
 
   &:hover {
-    transform: scale(0.9);
+    transform: scale(0.975);
   }
 }
