@@ -11,3 +11,9 @@
     transform: scale(0.975);
   }
 }
+
+@media only screen and (max-width: 50em) {
+  .c-button {
+    font-size: 0.8125em;
+  }
+}

@@ -35,3 +35,10 @@
     }
   }
 }
+
+@media only screen and (max-width: 45em) {
+  .c-card {
+    margin: auto;
+    width: 15rem;
+  }
+}

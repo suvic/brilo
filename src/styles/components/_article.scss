@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-height: 45vh;
+  height: 100%;
 
   &__text {
     text-align: left;
@@ -24,5 +24,34 @@
     object-fit: contain;
     object-position: right;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 50em) {
+  .c-article {
+    flex-direction: column;
+
+    &__text {
+      margin-bottom: 3rem;
+      width: 75%;
+    }
+    &__figure {
+      width: 75%;
+    }
+
+    &__image {
+      object-position: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 35em) {
+  .c-article {
+    &__text {
+      width: 100%;
+    }
+    &__figure {
+      width: 100%;
+    }
   }
 }
